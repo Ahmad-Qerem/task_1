@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>epallet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="styles/main.css"
+    />
+    <link rel="stylesheet" href="assets/styles/css/main.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    /> -->
+  </head>
+
+  <body>
+    <!-- header component -->
+    <header>
+      <div class="hederTitle">
+        <p class="fs-7">
+          Our annual Buy in Bulk sale is now live. 20% off everything. Use promo
+          code ‘BULKBUY22’.
+        </p>
+        <a href="#">Shop Now</a>
+      </div>
+
+      <!-- nav 1-->
+      <nav class="container navbar navbar-expand-lg nav1 p-0">
+        <div class="d-flex gap-1">
+          <img src="/assets/images/icons/info.svg" />
+          <div class="text-primary">
+            Please sign-in to see delivered prices.
+          </div>
+        </div>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help centre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Knowledge hub</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+
+        <button
+          class="navbar-toggler border-0"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+
+      <!-- nav 2-->
+      <div class="nav2">
+        <nav class="container navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/logo.png" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span>Shop by category</span>
+                  <img src="assets/images/icons/Down.png" />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span>Shop by business</span>
+                  <img src="assets/images/icons/Down.png" />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span>Shop by brand</span>
+                  <img src="assets/images/icons/Down.png" />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span>Build a mixed Pallet</span>
+                  <img src="assets/images/icons/Down.png" />
+                </a>
+              </li>
+            </ul>
+            <!-- End -->
+            <div class="d-flex gap-2">
+              <!-- Search box-->
+              <div class="search-box">
+                <input type="text" placeholder="search" />
+                <img src="assets/images/icons/search.svg" />
+              </div>
+              <div class="d-flex gap-2">
+                <button class="outline-button">Sign In</button>
+                <button class="fill-button">Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- carousel  -->
+      <div id="c-1" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#c-1"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#c-1"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#c-1"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/images/tablet.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption-container d-none d-md-block">
+              <h1>
+                Bulk buying made
+                <span> easy. </span>
+              </h1>
+              <p>Partnering with major vendors and brands with 9000+ SKUs</p>
+              <button class="fill-button">Start here</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/tablet.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption-container d-none d-md-block">
+              <h1>Bulk buying made <span>easy.</span></h1>
+              <p>Partnering with major vendors and brands with 9000+ SKUs</p>
+              <button class="fill-button">Start here</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/tablet.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption-container d-none d-md-block">
+              <h1>Bulk buying made <span>easy.</span></h1>
+              <p>Partnering with major vendors and brands with 9000+ SKUs</p>
+              <button class="fill-button">Start here</button>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#c-1"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#c-1"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="mt-5">
+      <section>
+        <!-- Cards -->
+        <div class="container p-0 mb-5">
+          <div class="cards-wrapper">
+            <!-- card 1 -->
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">
+                  Purchase a wider selection of products.
+                </h4>
+                <div class="card-text">
+                  <p>
+                    Mixed pallets provides an additional opportunity to purchase
+                    a wider selection of products.
+                  </p>
+                </div>
+                <a href="#">Try Mixed Pallet</a>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Get any product you want.</h4>
+                <div class="card-text">
+                  <p>
+                    Provides access to an unlimited product assortment. If
+                    there's a product or brand you want, Epallet will find it
+                    for you.
+                  </p>
+                </div>
+                <a href="#">Shop Now</a>
+              </div>
+            </div>
+            <!-- card 1 -->
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Supports Growing Businesses</h4>
+                <div class="card-text">
+                  <p>
+                    By reducing logistics & distribution costs help you take
+                    advantage of competitive pricing.
+                  </p>
+                </div>
+                <a href="#">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- categories -->
+        <div class="category-container">
+          <div class="container p-0">
+            <div class="d-flex align-items-center gap-2">
+              <h2 class="section-title">Top categories</h2>
+              <a href="#" class="link-title d-lg-inline d-md-none d-sm-none"
+                >View ALL</a
+              >
+            </div>
+            <!-- categories-wrapper -->
+            <div class="category-wrapper">
+              <!-- category-item -->
+              <div class="category-item">
+                <img
+                  width="208"
+                  height="208"
+                  class="rounded-circle"
+                  src="assets/images/food/food1.png"
+                />
+                <h4 class="font-1">Fruits & Vegetables</h4>
+              </div>
+
+              <div class="category-item">
+                <img
+                  width="208"
+                  height="208"
+                  class="rounded-circle"
+                  src="assets/images/food/food2.png"
+                />
+                <h4 class="font-1">Disposable Serviceware</h4>
+              </div>
+
+              <div class="category-item">
+                <img
+                  width="208"
+                  height="208"
+                  class="rounded-circle"
+                  src="assets/images/food/food3.png"
+                />
+                <h4 class="font-1">Eggs & Dairy</h4>
+              </div>
+
+              <div class="category-item">
+                <img
+                  width="208"
+                  height="208"
+                  class="rounded-circle"
+                  src="assets/images/food/food4.png"
+                />
+                <h4 class="font-1">Meat & Seafood</h4>
+              </div>
+
+              <div class="category-item">
+                <img
+                  width="208"
+                  height="208"
+                  class="rounded-circle"
+                  src="assets/images/food/food5.png"
+                />
+                <h4 class="font-1">Snacks</h4>
+              </div>
+
+              <div class="category-item">
+                <img
+                  width="208"
+                  height="208"
+                  class="rounded-circle"
+                  src="assets/images/food/food6.png"
+                />
+                <h4 class="font-1">Canned Goods</h4>
+              </div>
+            </div>
+
+            <div
+              class="bottom-link text-center d-lg-none d-md-block d-sm-block"
+            >
+              <a href="#" class="link-title">View ALL</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- join now banner large screens -->
+        <div class="banner-wrapper">
+          <img
+            class="d-lg-block d-md-none d-sm-none w-100 d-none d-sm-block"
+            src="assets/images/boxes.png"
+            alt="Banner Image"
+          />
+
+          <img
+            class="banner-mobile-image d-lg-none d-md-block d-sm-block"
+            src="assets/images/Banner-mobile.png"
+          />
+          <div class="banner-content">
+            <h1>
+              We do all the work and you<br />
+              <span> simply<span> sell</span><span> more.</span> </span>
+            </h1>
+            <p>
+              We handle everything end-to-end. We value creating data
+              transparency, that empowers you to manage your business better.
+            </p>
+            <button class="btn btn-white">Get Started</button>
+          </div>
+        </div>
+
+        <!-- shop py brand -->
+        <div class="brands-container">
+          <div class="container p-0">
+            <div
+              class="d-flex justify-content-lg-start justify-content-md-between justify-content-sm-between align-items-center gap-2"
+            >
+              <h1 class="section-title">Shop by brands</h1>
+              <a href="#" class="link-title h6">View ALL</a>
+            </div>
+            <!-- brands-wrapper -->
+            <div class="brands-wrapper">
+              <!-- category-item -->
+              <div class="category-item">
+                <img
+                  width="208"
+                  height="208"
+                  class="rounded-circle"
+                  src="assets/images/brands/brand1.png"
+                />
+                <h4 class="font-1">Schriber Foods</h4>
+              </div>
+
+              <div class="category-item">
+                <img
+                  width="208"
+                  height="208"
+                  class="rounded-circle"
+                  src="assets/images/brands/brand2.png"
+                />
+                <h4 class="font-1">Once Again</h4>
+              </div>
+
+              <div class="category-item">
+                <img
+                  width="208"
+                  height="208"
+                  class="rounded-circle"
+                  src="assets/images/brands/brand3.png"
+                />
+                <h4 class="font-1">Homestat Farm</h4>
+              </div>
+
+              <div class="category-item">
+                <img
+                  width="208"
+                  height="208"
+                  class="rounded-circle"
+                  src="assets/images/brands/brand4.png"
+                />
+                <h4 class="font-1">Aladdin Bakers</h4>
+              </div>
+
+              <div class="category-item">
+                <img
+                  width="208"
+                  height="208"
+                  class="rounded-circle"
+                  src="assets/images/brands/brand5.png"
+                />
+                <h4 class="font-1">Goya</h4>
+              </div>
+
+              <div class="category-item">
+                <img
+                  width="208"
+                  height="208"
+                  class="rounded-circle"
+                  src="assets/images/brands/brand6.png"
+                />
+                <h4 class="font-1">Bumble Bee</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="footer-card col-lg-3 col-md-6">
+            <img src="assets/images/icons/Lock.png" />
+            <p>Safe and <br />Secure Checkout</p>
+          </div>
+          <div class="footer-card col-lg-3 col-md-6">
+            <img src="assets/images/icons/Customer service.png" />
+            <p>
+              Hassle-free Delivery<br />
+              Coordination
+            </p>
+          </div>
+          <div class="footer-card col-lg-3 col-md-6">
+            <img src="assets/images/icons/Guarantee.png" />
+            <p>
+              Real-time<br />
+              pricing
+            </p>
+          </div>
+          <div class="footer-card col-lg-3 col-md-6">
+            <img src="assets/images/icons/Rating.png" />
+            <p>
+              Great Customer<br />
+              Service
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row bottom-footer-wrapper">
+        <div class="col-lg-4 privacy">
+          <img src="/assets/images/logo.png" />
+          <p>
+            ePallet is business-to-business only. Please be prepared to provide
+            a valid reseller's permit (business license) or tax-exempt
+            certificate (for a non-profit organization) and show proof that you
+            are authorized to purchase for said business or organization. In the
+            following states, you also need your FEIN: CT, IN, MA and PA.
+          </p>
+          <a href="#">Privacy & Terms Of Use</a>
+        </div>
+
+        <div class="col-lg-8 website-map">
+          <div class="row bottom-footer-wrapper g-5">
+            <div class="col-md-6 navigation">
+              <nav>
+                <h5>Explore</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Categories</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Brands</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Knowledge hub</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">In the press</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonials</a>
+                  </li>
+                </ul>
+              </nav>
+
+              <nav>
+                <h5>Help centre</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Orders & purchases</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shipping & delivery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Payments & pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Navigation</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">My account</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Membership</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-md-6 contact">
+              <h4>News, offers, and more</h4>
+              <div class="email-field">
+                <img class="submit-image" src="assets/images/icons/sent.svg" />
+                <input
+                  placeholder="Sign up to receive email alerts"
+                  type="text"
+                />
+              </div>
+
+              <div class="d-flex flex-column gap-2 mt-5">
+                <div class="d-flex justify-content-end gap-2">
+                  <img src="assets/images/icons/facebook.svg" />
+                  <img src="assets/images/icons/tweeter.svg" />
+                  <img src="assets/images/icons/Youtube.svg" />
+                  <img src="assets/images/icons/Instagram.svg" />
+                </div>
+                <p class="text-end">
+                  ® 2022 ePallet.com Intellectual Property. All rights reserved.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

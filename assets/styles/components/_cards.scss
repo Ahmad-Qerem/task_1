@@ -1,0 +1,40 @@
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  @media (max-width: 576px) {
+    gap: 0;
+  }
+}
+
+.card {
+  border: 1px solid $light-300;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  flex: 1 280px !important;
+  cursor: pointer;
+  &:hover {
+    box-shadow: -20px 14px 54px 0px rgba(225, 211, 203, 0.5);
+  }
+  .card-body {
+    color: $primary;
+    padding: 40px;
+    h4 {
+      font-weight: 800;
+    }
+
+    p {
+      margin-top: 12px;
+      margin-bottom: 25px;
+    }
+
+    a {
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 2px solid $secondary;
+    }
+  }
+
+  @media (max-width: 576px) {
+  }
+}

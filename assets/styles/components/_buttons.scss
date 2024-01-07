@@ -1,0 +1,36 @@
+.outline-button {
+  padding: 0;
+  background-color: $white;
+  border: 1px solid $primary;
+  height: 48px;
+  color: $primary;
+  min-width: 95px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  font-weight: 700;
+
+  &:hover {
+    color: #fff; // Change text color to white on hover
+    background-color: $primary;
+    border-color: transparent; // Hide border on hover
+  }
+}
+
+.fill-button {
+  background-color: $secondary;
+  border: 1px solid $secondary;
+  height: 48px;
+  color: $white;
+  min-width: 95px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  font-weight: 700;
+  &:hover {
+    color: $secondary; // Change text color to white on hover
+    background-color: $white;
+  }
+}
+
+.btn-white {
+  background-color: white !important;
+  color: $secondary !important;
+  border-radius: 0 !important;
+}

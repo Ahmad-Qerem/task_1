@@ -1,0 +1,94 @@
+footer {
+  .footer-card {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+    padding: 2rem;
+    p {
+      color: $white;
+      font-weight: 600;
+      margin: 0;
+      line-height: 120.5%;
+    }
+  }
+
+  .bottom-footer-wrapper {
+    --bs-gutter-x: 0;
+  }
+
+  .privacy {
+    padding: 60px 80px;
+    background-color: $secondary-light-100;
+
+    a {
+      color: $primary;
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 2px solid $secondary;
+    }
+
+    @media (max-width: 768px) {
+      padding: 30px; // Adjust the reduced padding for smaller screens
+    }
+  }
+
+  .website-map {
+    padding: 60px 80px;
+    background-color: $light-200;
+    @media (max-width: 768px) {
+      padding: 30px; // Adjust the reduced padding for smaller screens
+    }
+  }
+
+  .contact {
+    h4 {
+      font-size: 20px;
+      font-weight: 700;
+      color: $primary;
+    }
+    .email-field {
+      position: relative;
+    }
+    input[type="text"] {
+      padding: 12px 16px;
+      height: 48px;
+      width: 100%;
+      border: 1px solid $light-100;
+      transition: box-shadow 0.3s ease;
+      font-size: 12px;
+      line-height: 150%;
+    }
+
+    input[type="text"]:focus {
+      outline: none; /* Remove default outline */
+      box-shadow: 0 0 5px $secondary; /* Add a subtle box shadow on focus */
+    }
+
+    input[type="text"]::placeholder {
+      color: $neutral;
+    }
+
+    .submit-image {
+      cursor: pointer;
+      position: absolute;
+      right: 0;
+      padding: 12px 16px;
+    }
+  }
+
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+
+    h5 {
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    a {
+      padding: 0;
+      line-height: 240%;
+    }
+  }
+}

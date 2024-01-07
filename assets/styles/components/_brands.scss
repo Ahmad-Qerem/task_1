@@ -1,0 +1,33 @@
+.brands-container {
+  background-color: $white;
+  padding: 44px 0;
+}
+
+.brands-wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  // overflow-x: scroll;
+  padding: 40px;
+
+  @media (max-width: 991px) {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+
+  &::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #d5e6f9;
+    border-radius: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #f3f3f3;
+    border-radius: 6px;
+  }
+}

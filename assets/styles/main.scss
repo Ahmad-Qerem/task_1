@@ -1,0 +1,33 @@
+@import "variables";
+@import "fonts";
+
+@import "components/buttons";
+@import "components/navbar";
+@import "components/carousel";
+@import "components/cards";
+@import "components/category";
+@import "components/joinNowBanner";
+@import "components/brands";
+@import "components/footer";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  font-family: "Inter";
+}
+
+main {
+  min-height: 80vh;
+}
+
+.section-title {
+  color: #000;
+  font-weight: 800;
+}
+
+.link-title {
+  color: $primary;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid $secondary;
+}
+

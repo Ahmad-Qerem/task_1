@@ -1,0 +1,67 @@
+.hederTitle {
+  background-color: $primary;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 10px;
+
+  a {
+    color: $white;
+    font-weight: 700;
+    margin-bottom: 4px;
+    text-decoration: none;
+    border-bottom: 2px solid $secondary;
+  }
+}
+
+.nav1 {
+  ul {
+    a {
+      color: $primary;
+      padding: 12px 14px;
+    }
+  }
+}
+
+.nav2 {
+  background-color: $light-100;
+  .container {
+    padding: 12px 0px;
+  }
+  li a {
+    color: $primary;
+  }
+  li .nav-link.active {
+    color: $secondary;
+  }
+
+  .search-box {
+    position: relative;
+
+    input[type="text"] {
+      padding: 12px 16px;
+      height: 48px;
+
+      border: 1px solid $light-100;
+      transition: box-shadow 0.3s ease;
+      line-height: 150%;
+    }
+
+    input[type="text"]:focus {
+      outline: none; /* Remove default outline */
+      box-shadow: 0 0 5px $secondary; /* Add a subtle box shadow on focus */
+    }
+
+    input[type="text"]::placeholder {
+      color: $neutral;
+    }
+
+    img {
+      position: absolute;
+      right: 0;
+      padding: 12px 16px;
+    }
+  }
+}
